@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		205266F51977ADF200A53DFD /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205266F41977ADF200A53DFD /* CitiesViewController.swift */; };
+		205266F71977E8EB00A53DFD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205266F61977E8EB00A53DFD /* DetailViewController.swift */; };
+		205266F91978141D00A53DFD /* provinces_cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 205266F81978141D00A53DFD /* provinces_cities.plist */; };
+		20CFE7D81977A11500532ACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFE7D71977A11500532ACB /* AppDelegate.swift */; };
+		20CFE7DA1977A11500532ACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFE7D91977A11500532ACB /* ViewController.swift */; };
+		20CFE7DD1977A11500532ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CFE7DB1977A11500532ACB /* Main.storyboard */; };
+		20CFE7DF1977A11600532ACB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CFE7DE1977A11500532ACB /* Images.xcassets */; };
+		20CFE7EB1977A11600532ACB /* TreeNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CFE7EA1977A11600532ACB /* TreeNavigationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20CFE7E51977A11600532ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20CFE7CA1977A11500532ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20CFE7D11977A11500532ACB;
+			remoteInfo = TreeNavigation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		205266F41977ADF200A53DFD /* CitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		205266F61977E8EB00A53DFD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		205266F81978141D00A53DFD /* provinces_cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces_cities.plist; sourceTree = "<group>"; };
+		20CFE7D21977A11500532ACB /* TreeNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CFE7D61977A11500532ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CFE7D71977A11500532ACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20CFE7D91977A11500532ACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20CFE7DC1977A11500532ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20CFE7DE1977A11500532ACB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		20CFE7E41977A11600532ACB /* TreeNavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CFE7E91977A11600532ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CFE7EA1977A11600532ACB /* TreeNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNavigationTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20CFE7CF1977A11500532ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CFE7E11977A11600532ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20CFE7C91977A11500532ACB = {
+			isa = PBXGroup;
+			children = (
+				20CFE7D41977A11500532ACB /* TreeNavigation */,
+				20CFE7E71977A11600532ACB /* TreeNavigationTests */,
+				20CFE7D31977A11500532ACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20CFE7D31977A11500532ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20CFE7D21977A11500532ACB /* TreeNavigation.app */,
+				20CFE7E41977A11600532ACB /* TreeNavigationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20CFE7D41977A11500532ACB /* TreeNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				20CFE7D71977A11500532ACB /* AppDelegate.swift */,
+				20CFE7D91977A11500532ACB /* ViewController.swift */,
+				20CFE7DB1977A11500532ACB /* Main.storyboard */,
+				205266F61977E8EB00A53DFD /* DetailViewController.swift */,
+				205266F41977ADF200A53DFD /* CitiesViewController.swift */,
+				20CFE7DE1977A11500532ACB /* Images.xcassets */,
+				20CFE7D51977A11500532ACB /* Supporting Files */,
+			);
+			path = TreeNavigation;
+			sourceTree = "<group>";
+		};
+		20CFE7D51977A11500532ACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				205266F81978141D00A53DFD /* provinces_cities.plist */,
+				20CFE7D61977A11500532ACB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20CFE7E71977A11600532ACB /* TreeNavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				20CFE7EA1977A11600532ACB /* TreeNavigationTests.swift */,
+				20CFE7E81977A11600532ACB /* Supporting Files */,
+			);
+			path = TreeNavigationTests;
+			sourceTree = "<group>";
+		};
+		20CFE7E81977A11600532ACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20CFE7E91977A11600532ACB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20CFE7D11977A11500532ACB /* TreeNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CFE7EE1977A11600532ACB /* Build configuration list for PBXNativeTarget "TreeNavigation" */;
+			buildPhases = (
+				20CFE7CE1977A11500532ACB /* Sources */,
+				20CFE7CF1977A11500532ACB /* Frameworks */,
+				20CFE7D01977A11500532ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeNavigation;
+			productName = TreeNavigation;
+			productReference = 20CFE7D21977A11500532ACB /* TreeNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20CFE7E31977A11600532ACB /* TreeNavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20CFE7F11977A11600532ACB /* Build configuration list for PBXNativeTarget "TreeNavigationTests" */;
+			buildPhases = (
+				20CFE7E01977A11600532ACB /* Sources */,
+				20CFE7E11977A11600532ACB /* Frameworks */,
+				20CFE7E21977A11600532ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20CFE7E61977A11600532ACB /* PBXTargetDependency */,
+			);
+			name = TreeNavigationTests;
+			productName = TreeNavigationTests;
+			productReference = 20CFE7E41977A11600532ACB /* TreeNavigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20CFE7CA1977A11500532ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = HUYI;
+				TargetAttributes = {
+					20CFE7D11977A11500532ACB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					20CFE7E31977A11600532ACB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 20CFE7D11977A11500532ACB;
+					};
+				};
+			};
+			buildConfigurationList = 20CFE7CD1977A11500532ACB /* Build configuration list for PBXProject "TreeNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20CFE7C91977A11500532ACB;
+			productRefGroup = 20CFE7D31977A11500532ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20CFE7D11977A11500532ACB /* TreeNavigation */,
+				20CFE7E31977A11600532ACB /* TreeNavigationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20CFE7D01977A11500532ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CFE7DD1977A11500532ACB /* Main.storyboard in Resources */,
+				205266F91978141D00A53DFD /* provinces_cities.plist in Resources */,
+				20CFE7DF1977A11600532ACB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CFE7E21977A11600532ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20CFE7CE1977A11500532ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205266F51977ADF200A53DFD /* CitiesViewController.swift in Sources */,
+				20CFE7DA1977A11500532ACB /* ViewController.swift in Sources */,
+				20CFE7D81977A11500532ACB /* AppDelegate.swift in Sources */,
+				205266F71977E8EB00A53DFD /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20CFE7E01977A11600532ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CFE7EB1977A11600532ACB /* TreeNavigationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20CFE7E61977A11600532ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20CFE7D11977A11500532ACB /* TreeNavigation */;
+			targetProxy = 20CFE7E51977A11600532ACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20CFE7DB1977A11500532ACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20CFE7DC1977A11500532ACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20CFE7EC1977A11600532ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20CFE7ED1977A11600532ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20CFE7EF1977A11600532ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TreeNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20CFE7F01977A11600532ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TreeNavigation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20CFE7F21977A11600532ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TreeNavigation.app/TreeNavigation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TreeNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		20CFE7F31977A11600532ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TreeNavigation.app/TreeNavigation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TreeNavigationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20CFE7CD1977A11500532ACB /* Build configuration list for PBXProject "TreeNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CFE7EC1977A11600532ACB /* Debug */,
+				20CFE7ED1977A11600532ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20CFE7EE1977A11600532ACB /* Build configuration list for PBXNativeTarget "TreeNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CFE7EF1977A11600532ACB /* Debug */,
+				20CFE7F01977A11600532ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20CFE7F11977A11600532ACB /* Build configuration list for PBXNativeTarget "TreeNavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20CFE7F21977A11600532ACB /* Debug */,
+				20CFE7F31977A11600532ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20CFE7CA1977A11500532ACB /* Project object */;
+}

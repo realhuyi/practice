@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.7" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6181.2"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="PageControlNavigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="gKY-j7-aYD">
+                                <rect key="frame" x="-19" y="-18" width="39" height="37"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="60" y="446" width="200" height="37"/>
+                                </variation>
+                                <connections>
+                                    <action selector="changPage:" destination="vXZ-lx-hvc" eventType="valueChanged" id="wwn-Rs-hQ3"/>
+                                </connections>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0k-Fw-VQT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="340" height="448"/>
+                                </variation>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="gKY-j7-aYD"/>
+                                <exclude reference="f0k-Fw-VQT"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="gKY-j7-aYD"/>
+                                <include reference="f0k-Fw-VQT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="gKY-j7-aYD" id="PFn-Jx-fWk"/>
+                        <outlet property="scrollView" destination="f0k-Fw-VQT" id="TBe-kk-QlR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339" y="377"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mmM-26-MyU">
+            <objects>
+                <viewController storyboardIdentifier="page1" id="Xy4-Lr-Eio" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vFL-dV-AyK"/>
+                        <viewControllerLayoutGuide type="bottom" id="1N9-5Q-iPJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s3W-aI-9A6">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="达芬奇-蒙娜丽莎.png" translatesAutoresizingMaskIntoConstraints="NO" id="eMK-QM-Xr4">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="eMK-QM-Xr4"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="eMK-QM-Xr4"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KJn-rF-bGY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339" y="915"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ark-8G-JjD">
+            <objects>
+                <viewController storyboardIdentifier="page2" id="GeB-br-pur" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wrT-uZ-bpq"/>
+                        <viewControllerLayoutGuide type="bottom" id="MHq-Rj-3tk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c04-0c-g4i">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="罗丹-思想者.png" translatesAutoresizingMaskIntoConstraints="NO" id="S6w-Lt-S8L">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="S6w-Lt-S8L"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="S6w-Lt-S8L"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sup-ab-lLe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="852" y="915"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="nYW-Cc-Un3">
+            <objects>
+                <viewController storyboardIdentifier="page3" id="5Hd-t1-7CE" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="52d-tU-OEi"/>
+                        <viewControllerLayoutGuide type="bottom" id="w6c-Ic-t9c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cx0-X5-zfa">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="保罗克利-肖像.png" translatesAutoresizingMaskIntoConstraints="NO" id="uHS-CS-vua">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="uHS-CS-vua"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="uHS-CS-vua"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u9Y-uG-GsE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1401" y="915"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="保罗克利-肖像.png" width="640" height="960"/>
+        <image name="罗丹-思想者.png" width="640" height="960"/>
+        <image name="达芬奇-蒙娜丽莎.png" width="640" height="960"/>
+    </resources>
+</document>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TreeNavigation/TreeNavigation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TabNavigation/TabNavigation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PageControlNavigation/PageControlNavigation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PageNavigation/PageNavigation.xcodeproj">
+   </FileRef>
+</Workspace>
