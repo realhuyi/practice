@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="c8r-kb-IkX">
+                                    <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="c8r-kb-IkX">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c8r-kb-IkX" id="vFV-w7-OAR">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -46,7 +46,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="csk-os-7Ih"/>
                     <connections>
-                        <outlet property="tableView" destination="IIy-2E-vQn" id="GqB-XJ-lLG"/>
+                        <outlet property="tableView" destination="IIy-2E-vQn" id="WDL-3Q-grW"/>
                         <segue destination="tGT-Sd-bnn" kind="push" identifier="ShowSelectedProvince" id="hWf-wI-OmR"/>
                     </connections>
                 </viewController>
@@ -54,15 +54,16 @@
             </objects>
             <point key="canvasLocation" x="360" y="371"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Cities View Controller-->
         <scene sceneID="V8G-Vu-6DR">
             <objects>
-                <tableViewController id="tGT-Sd-bnn" customClass="DetailViewController" customModule="TreeNavigation" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="gdm-Qi-m9i">
+                <tableViewController id="tGT-Sd-bnn" customClass="CitiesViewController" customModule="TreeNavigation" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="gdm-Qi-m9i">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="SuX-OY-oiM">
+                            <tableViewCell contentMode="scaleToFill" ambiguous="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="SuX-OY-oiM">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SuX-OY-oiM" id="OAE-Li-TPG">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -95,6 +96,7 @@
                         <viewControllerLayoutGuide type="bottom" id="CMZ-kF-SXW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="WuG-Ki-Jv1">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8nz-72-1BL">

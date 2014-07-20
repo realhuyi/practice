@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
     
     @IBOutlet var tableView: UITableView
+    @IBOutlet var tableView: UITableView
     enum DirectionForward: Int8 {
         case ForwardBefore = 1
         case ForwardAfter = 2
